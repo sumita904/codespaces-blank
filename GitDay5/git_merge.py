@@ -8,3 +8,6 @@ my_string= "This is python programming"
 print(my_string[0:2])
 print(my_string[3:7:1])
 print(my_string[4:6:1])
+
+# now write in terminal git commit -m "developerA story complete"
+#now write in terminal- git checkout master
