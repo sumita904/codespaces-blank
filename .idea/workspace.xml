@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="030a9f09-720f-431b-ac98-1b7a761d289f" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/Day4_Datatype/set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day4_Datatype/string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4_Datatype/Datatype001.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day4_Datatype/Datatype001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4_Datatype/SettingSpecificDatatype.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day4_Datatype/SettingSpecificDatatype.py" afterDir="false" />
-    </list>
+    <list default="true" id="030a9f09-720f-431b-ac98-1b7a761d289f" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;Initial commit&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -434,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720279227166</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/master'&#10;Initial commit&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1720344835405</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1720344835405</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,6 +456,7 @@
     <MESSAGE value="Python Learnings&#10;&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;Initial commit&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;Initial commit&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;" />
   </component>
 </project>
