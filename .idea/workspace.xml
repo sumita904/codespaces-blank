@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="030a9f09-720f-431b-ac98-1b7a761d289f" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;Initial commit&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;" />
+    <list default="true" id="030a9f09-720f-431b-ac98-1b7a761d289f" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;Initial commit&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;">
+      <change afterPath="$PROJECT_DIR$/Day6_Operator/Arithmetic_opera001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day6_Operator/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitDay5/git_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/GitDay5/git_merge.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +80,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Arithmetic_opera001.executor": "Run",
     "Python.Datatype001.executor": "Run",
     "Python.Lab001.executor": "Run",
     "Python.Lab002.executor": "Run",
@@ -99,7 +105,7 @@
     "Python.variable_ex001.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "sumita",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/v-sumikumari/PycharmProjects/LearnPy7DaysDemo/pythonProject",
     "settings.editor.selected.configurable": "terminal"
@@ -115,8 +121,8 @@
       <recent name="C:\Users\v-sumikumari\PycharmProjects\LearnPy7DaysDemo\pythonProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.git_merge">
-    <configuration name="SettingSpecificDatatype" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Arithmetic_opera001">
+    <configuration name="Arithmetic_opera001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day4_Datatype" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day6_Operator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day4_Datatype/SettingSpecificDatatype.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day6_Operator/Arithmetic_opera001.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Arithmetic_opera001" />
         <item itemvalue="Python.git_merge" />
         <item itemvalue="Python.string" />
         <item itemvalue="Python.git001" />
         <item itemvalue="Python.set" />
-        <item itemvalue="Python.SettingSpecificDatatype" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720374306531</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Merge remote-tracking branch 'origin/master'&#10;Initial commit&#10;Signed-off-by: sumita kumari &lt;sumitakumari904@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1720374778338</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1720374778338</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -13,3 +13,4 @@ print(my_string[4:6:1])
 #now write in terminal- git checkout master
 #now delete developerA branch --- git branch -d developerA
 #now push to repository using --- git push origin master
+#----end---
