@@ -12,6 +12,7 @@ y=x%1000
 z=y/10
 print(int(z))
 
+
 #swap value for x, y
 x=10
 y=5
@@ -20,4 +21,6 @@ y=x
 x=z
 print(x)
 print(y)
+
+
 
