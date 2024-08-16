@@ -84,14 +84,14 @@ for i in range(5):
        """
 
 
-"""right to left pyramid
+#right to left pyramid
 for x in range(5):
     for y in range(x+1,5):
         print(f" ",end=" ")
     for y in range(x+1):
         print(f"*",end=" ")
     print()
-    """
+
 """ print full pyramid ------
 for x in range(5):
     for y in range(x+1,5):
@@ -102,10 +102,10 @@ for x in range(5):
         print(f"*",end=" ")
 
     print()
-    
-"""
+    """
 
-# print burfi ---------
+
+""" print burfi ---------
 for x in range(5):
     for y in range(x+1,5):
         print(f" ",end=" ")
@@ -124,7 +124,7 @@ for x in range(4):
         print(f"*",end=" ")
 
     print()
-
+"""
 
 
 
