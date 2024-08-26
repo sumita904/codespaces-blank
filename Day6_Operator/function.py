@@ -132,9 +132,9 @@ def fibbo(func1):
 def fibonacci(v,r):
     series_cal=0
     for i in range(0,2):
-
-        series_cal=series_cal+ i
+         series_cal=series_cal+ i
         print(f"{series_cal}",end=" ")
+        
 
     return series_cal
 
