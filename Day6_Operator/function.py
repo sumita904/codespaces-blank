@@ -119,26 +119,34 @@ def fact(f):
     return cal
 fact(6)
 
-# fibonacci series ---------
+""" fibonacci series ---------
 
-def fibbo(func1):
-    def series(*arg1):
-        print(f"enter the range : {arg1}")
-        value=func1(*arg1)
-        #print(f"fibonacci series returned: {value}")
-        return value
-    return series
-@fibbo
-def fibonacci(v,r):
-    series_cal=0
-    for i in range(0,2):
+def fibbo(x):
+    a,b=0,1
+    for i in range(x):
+        print(a,end=", " if i <x-1 else "")
+        a,b=b, a+b
+fibbo(25)        
+"""
+#fibbonacci series using decorator
 
-        series_cal=series_cal+ i
-        print(f"{series_cal}",end=" ")
+def fibonacci(func1):
+    def input(arg1):
+        print(f"enter the no : {arg1}")
+        print(f"fibonacci series returned:")
+        result1 = func1(arg1)
+        return result1
+    return input
 
-    return series_cal
+@fibonacci
+def fibbo(x):
+    a, b = 1, 0
+    for i in range(x):
+        a, b = b, a + b
+        print(a, end=", ")
+fibbo(25)
 
-fibonacci(0,25)
+
 
 
 """ yield
@@ -150,6 +158,8 @@ for j in text():
     print (f"{j}")
     
 """
+
+
 
 
 
