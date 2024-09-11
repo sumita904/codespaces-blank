@@ -65,6 +65,7 @@ with open(path,'r') as file:
             if word in line:
                 print(f"word '{word}'found on line {line_no}:{line.strip()}")
 """
+"""
 # web scrapping using beautifulsoup bs4
 import requests
 from bs4 import BeautifulSoup
@@ -82,3 +83,79 @@ print(f"page_title:{page_title}")
 links=soup.find_all('a')
 for link in links:
     print(link.get('href'))
+  """
+"""
+import requests
+from bs4 import BeautifulSoup
+
+url='https://en.wikipedia.org/wiki/India'
+response=requests.get(url)
+if response.status_code==200:
+    webpage_content=response.text
+    print("webpage_content fetch")
+else:
+    print(f"failed to fetch webpage_content fetch",{response.status_code})
+soup=BeautifulSoup(webpage_content,'html.parser')
+paragraphs=soup.find_all('p')
+links=soup.find_all('a')
+for paragraph in paragraphs:
+    print(paragraph.get_text())
+for link in links:
+    print(link.get('href'))
+"""
+"""
+import requests
+from bs4 import BeautifulSoup
+
+url='https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_mark'
+response=requests.get(url)
+if response.status_code==200:
+   soup=BeautifulSoup(response.text,'html.parser')
+   mark_tag=soup.find('mark')
+   if mark_tag:
+       print(f"mark_tag is present,{mark_tag.get_text()}")
+   else:
+       print("mark_tag is not present")
+
+else:
+    print(f"failed to fetch webpage_content fetch",{response.status_code})
+"""
+
+# to store website data on your local computer
+import requests
+from bs4 import BeautifulSoup
+
+url= 'https://www.interviewbit.com/sdet-interview-questions/#severity-vs-priority'
+response=requests.get(url)
+
+if response.status_code==200:
+    soup = BeautifulSoup(response.text, 'html.parser')
+    links= soup.find_all('a')
+    paragraphs = soup.find_all('p')
+with open('website_data.txt', 'w') as file:
+        file.write(f"links found on the page:\n")
+        for link in links:
+            file.write(f"{link.get('href')}\n")
+        file.write(f"paragraphs found on the page:\n")
+        for paragraph in paragraphs:
+            file.write(f"{paragraph.get_text()}\n")
+print("Data successfully written to 'webpage_data.txt'")
+
+#user will ask to fetch from url and store that in file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
