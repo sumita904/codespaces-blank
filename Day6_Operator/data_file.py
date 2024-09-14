@@ -125,23 +125,28 @@ else:
 import requests
 from bs4 import BeautifulSoup
 
-url= 'https://www.interviewbit.com/sdet-interview-questions/#severity-vs-priority'
-response=requests.get(url)
+url = 'https://www.flipkart.com/'
+headers = {
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
+
+response = requests.get(url, headers=headers)
 
 if response.status_code==200:
     soup = BeautifulSoup(response.text, 'html.parser')
     links= soup.find_all('a')
-    paragraphs = soup.find_all('p')
-with open('website_data.txt', 'w') as file:
-        file.write(f"links found on the page:\n")
+    with open('file_data.txt','w') as file:
+        file.write(f"links are found :\n")
         for link in links:
             file.write(f"{link.get('href')}\n")
-        file.write(f"paragraphs found on the page:\n")
-        for paragraph in paragraphs:
-            file.write(f"{paragraph.get_text()}\n")
-print("Data successfully written to 'webpage_data.txt'")
+
+else:
+    print(f"failed to retrieve {response.status_code}")
+
+
 
 #user will ask to fetch from url and store that in file
+
 
 
 
