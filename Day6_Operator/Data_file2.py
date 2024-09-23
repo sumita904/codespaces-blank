@@ -1,4 +1,4 @@
-
+"""
 import requests
 import re
 from bs4 import BeautifulSoup
@@ -16,4 +16,46 @@ if response.status_code==200:
 
 else:
      print("response is not retrieved")
+"""
+"""
+import requests
+import re
+from bs4 import BeautifulSoup
+
+url='https://economictimes.indiatimes.com/markets/stocks?from=mdr'
+response=requests.get(url)
+
+if response.status_code==200:
+    soup = BeautifulSoup(response.text,'html.parser')
+    page_text=soup.get_text()
+    updates = re.findall(r'([^.]*?market live update[^.]*\.)',page_text,re.IGNORECASE) #non greedy match
+    with open('updates.txt','w') as file:
+        for match in updates:
+            file.write(f"{match}")
+    print("updates are successfully fetched")
+else:
+    print("response is not retrieved")
+"""
+
+import requests
+import re
+from bs4 import BeautifulSoup
+
+url= input("enter url")
+search=input("enter update")
+response=requests.get(url)
+
+if response.status_code==200:
+    soup = BeautifulSoup(response.text,'html.parser')
+    page = soup.get_text()
+    para = rf'([^.]*?{re.escape(search)}[^.]*\.)'
+    report = re.findall(para,page,re.IGNORECASE)
+    with open ('reports.txt','w') as file:
+        for news in report:
+            file.write(f"{news}\n")
+    print("news is successfully fetched")
+else:
+    print("response is not retrieved")
+
+
 
