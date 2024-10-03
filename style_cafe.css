@@ -6,6 +6,8 @@ body {
 
 h1{
   font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -40,6 +42,13 @@ h1,h2{
     margin-right: auto;
     padding: 20px;  /* delete the four properties and use a single padding property with the value 20px*/
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
 .flavor,.dessert {
   text-align: left;
   width: 75%;
@@ -60,6 +69,20 @@ footer {
   font-size: 14px;
 }
 
+.address {
+  margin-bottom: 5px;
+}
+
 a {
   color: black;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  color: brown;
+}
+a:active {
+  color: brown;
 }
