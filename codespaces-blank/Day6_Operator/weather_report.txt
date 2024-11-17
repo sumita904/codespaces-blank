@@ -1,0 +1,4 @@
+weather report for kolkata
+temperature:14.12
+weather condition:broken clouds
+humidity:91%
