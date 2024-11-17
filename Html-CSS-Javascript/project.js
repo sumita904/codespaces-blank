@@ -76,18 +76,26 @@
 //     console.log('donot take a raincoat');
 // }
 
-var year=1000;
-debugger;
-if(year% 4==0){
-    if(year%100==0){
-        if(year%400==0){
-        console.log("The year "+ year +"is a leap year");
-        }else{
-            console.log("The year "+ year +"is not a leap year");
-        }
-    }else{
-        console.log("The year "+ year +"is a leap year");
-    }
-}else{
-    console.log("The year "+ year +"is not a leap year");
-}
+// var year=1000;
+// debugger;
+// if(year% 4==0){
+//     if(year%100==0){
+//         if(year%400==0){
+//         console.log("The year "+ year +"is a leap year");
+//         }else{
+//             console.log("The year "+ year +"is not a leap year");
+//         }
+//     }else{
+//         console.log("The year "+ year +"is a leap year");
+//     }
+// }else{
+//     console.log("The year "+ year +"is not a leap year");
+// }
+
+// var a= "42";
+// var b= Number(a);
+
+// console.log(a);
+// console.log(b);
+// console.log(typeof(a));
+// console.log(typeof(b));
