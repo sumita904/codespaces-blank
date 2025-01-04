@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from fontTools.subset import subset
 
-data= pd.read_csv('iris.csv')
+data= pd.read_csv('IRIS.csv')
 print("The first five rows of the dataset")
 print(data.head())
 print("\n statistics")

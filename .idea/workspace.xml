@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abd348a1-ba64-4f43-9f41-13c5b22d3e3f" name="Changes" comment="merge" />
+    <list default="true" id="abd348a1-ba64-4f43-9f41-13c5b22d3e3f" name="Changes" comment="merge">
+      <change afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/automateTask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/excel_patternfill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/machine_learn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/schedule_automate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/weatherApi_automate_notification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/weather_automate_temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/2014_apple_stock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/2014_apple_stock.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/automateFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/automateFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/data_analysis1-IRIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/data_analysis1-IRIS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/iris.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/para.txt" beforeDir="false" afterPath="$PROJECT_DIR$/codespaces-blank/Day6_Operator/para.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,25 +55,25 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/codespaces-blank" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "assignee": "sumita904"
+      &quot;assignee&quot;: &quot;sumita904&quot;
     },
     {
-      "state": "OPEN",
-      "author": "sumita904"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;author&quot;: &quot;sumita904&quot;
     }
   ],
-  "lastFilter": {}
-}]]></component>
+  &quot;lastFilter&quot;: {}
+}</component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
       <RecentBranches>
@@ -79,6 +93,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main-25768899" />
+                    <option name="lastUsedInstant" value="1731868213" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1731868030" />
@@ -130,14 +148,21 @@
     "Python.api.executor": "Run",
     "Python.automateFile (1).executor": "Run",
     "Python.automateFile.executor": "Run",
+    "Python.automateTask.executor": "Run",
     "Python.bdy.executor": "Run",
     "Python.data_analysis.executor": "Run",
     "Python.data_analysis1-IRIS.executor": "Run",
+    "Python.excel.executor": "Run",
+    "Python.excel_patternfill.executor": "Run",
+    "Python.machine_learn.executor": "Run",
+    "Python.schedule_automate.executor": "Run",
+    "Python.weatherApi_automate_notification.executor": "Run",
+    "Python.weather_automate_temp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "main-25768899",
     "last_opened_file_path": "/Users/sumitasinha/PycharmProjects/pythonProject",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -152,8 +177,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.automateFile">
-    <configuration name="D_Analysis2_apple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.machine_learn">
+    <configuration name="Data_file4_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator/D_Analysis2_apple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator/Data_file4_selenium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="D_analysis_Birthday" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="automateTask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +213,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator/D_analysis_Birthday.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator/automateTask.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,29 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="automateFile (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codespaces-blank/renamefile_4.txt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/renamefile_4.txt/automateFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="automateFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="machine_learn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,7 +235,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator/automateFile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator/machine_learn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_analysis1-IRIS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="weatherApi_automate_notification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,7 +257,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator/data_analysis1-IRIS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator/weatherApi_automate_notification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="weather_automate_temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codespaces-blank/Day6_Operator/weather_automate_temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.data_analysis1-IRIS" />
-        <item itemvalue="Python.D_analysis_Birthday" />
-        <item itemvalue="Python.D_Analysis2_apple" />
-        <item itemvalue="Python.automateFile (1)" />
-        <item itemvalue="Python.automateFile" />
+        <item itemvalue="Python.machine_learn" />
+        <item itemvalue="Python.weather_automate_temp" />
+        <item itemvalue="Python.weatherApi_automate_notification" />
+        <item itemvalue="Python.automateTask" />
+        <item itemvalue="Python.Data_file4_selenium" />
       </list>
     </recent_temporary>
   </component>
